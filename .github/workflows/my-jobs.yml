@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '8.0.x'  # Specifically for .NET 8
       
       - name: Restore dependencies
-        run: dotnet restore MBS-CONTRACT.SHARE.csproj
+        run: dotnet restore ./MBS-CONTRACT.SHARE/MBS-CONTRACT.SHARE.csproj
 
       - name: Build
         run: dotnet build --no-restore --configuration Release

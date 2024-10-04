@@ -17,19 +17,9 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'  # Specifically for .NET 8
-
-      - name: Set environment variables
-        run: |
-          echo "HOME=$HOME" >> $GITHUB_ENV
-          echo "DOTNET_CLI_HOME=$HOME" >> $GITHUB_ENV
-
-      - name: Display environment variables
-        run: |
-          echo "HOME: $HOME"
-          echo "DOTNET_CLI_HOME: $DOTNET_CLI_HOME"
       
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore MBS-CONTRACT.SHARE.csproj
 
       - name: Build
         run: dotnet build --no-restore --configuration Release

@@ -479,3 +479,7 @@ Temporary Items
 
 docker-compose.yml
 MBS-COMMAND.API/logs
+
+bin/
+obj/
+*.nupkg

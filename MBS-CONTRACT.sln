@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBS-CONTRACT.SHARE", "MBS-CONTRACT.SHARE\MBS-CONTRACT.SHARE.csproj", "{5A15D833-FD25-4E47-BA28-361DD2F451DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A15D833-FD25-4E47-BA28-361DD2F451DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A15D833-FD25-4E47-BA28-361DD2F451DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A15D833-FD25-4E47-BA28-361DD2F451DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A15D833-FD25-4E47-BA28-361DD2F451DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

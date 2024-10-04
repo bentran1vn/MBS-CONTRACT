@@ -5,6 +5,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
 # Copy the solution file and project files
+COPY .dockerignore ./
 COPY MBS-CONTRACT.sln .
 COPY MBS-CONTRACT.SHARE/MBS-CONTRACT.SHARE.csproj ./MBS-CONTRACT.SHARE/
 

@@ -22,6 +22,8 @@ jobs:
           docker rm temp
 
       - name: Push to NuGet
+        env:
+          DOTNET_CLI_HOME: /tmp  # Set it to a writable location
         run: |
           dotnet nuget push ./nupkg/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET_API_KEY}} --skip-duplicate
 

@@ -24,6 +24,7 @@
 
     <ItemGroup>
       <Folder Include="Services\Slots\" />
+      <None Include=".dockerignore" Pack="true" />
     </ItemGroup>
 
     <ItemGroup>

@@ -22,7 +22,7 @@ RUN dotnet build MBS-CONTRACT.SHARE/MBS-CONTRACT.SHARE.csproj --configuration Re
 RUN dotnet publish MBS-CONTRACT.SHARE/MBS-CONTRACT.SHARE.csproj -c Release -o out
 
 # Pack the NuGet package (with no default excludes and no README required)
-RUN dotnet pack MBS-CONTRACT.SHARE/MBS-CONTRACT.SHARE.csproj -c Release -o nupkg --no-restore -NoDefaultExcludes
+RUN dotnet pack MBS-CONTRACT.SHARE/MBS-CONTRACT.SHARE.csproj -c Release -o nupkg --no-restore
 
 # Final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0

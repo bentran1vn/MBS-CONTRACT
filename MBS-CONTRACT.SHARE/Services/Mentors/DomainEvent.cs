@@ -6,5 +6,5 @@ public class DomainEvent
 {
     public record MentorCreated(Guid IdEvent, Guid Id, string Email,
         string FullName, int Role, int Points, int Status,
-        DateTimeOffset CreatedOnUtc, bool IsDeleted) : IDomainEvent;
+        DateTimeOffset CreatedOnUtc, bool IsDeleted) : IDomainEvent, ICommand;
 }

@@ -10,7 +10,7 @@
 
     <PropertyGroup>
         <PackageId>MBS_CONTRACT.SHARE</PackageId>
-        <Version>1.1.2</Version>
+        <Version>1.1.3</Version>
         <Authors>bentran1vn</Authors>
         <Company>MBS_COMPANY</Company>
         <Description>A share library for MBS System !</Description>

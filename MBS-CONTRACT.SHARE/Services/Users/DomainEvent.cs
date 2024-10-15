@@ -5,7 +5,7 @@ namespace MBS_CONTRACT.SHARE.Services.Users;
 public static class DomainEvent
 {
     public record MentorCreated(Guid IdEvent, Guid Id): IDomainEvent, ICommand;
-    public record SlotsCreated(Guid IdEvent, IEnumerable<Slot> Slots, Guid MentorId) : IDomainEvent, ICommand;
+    public record MentorSlotCreated(Guid IdEvent, IEnumerable<Slot> Slots, Guid MentorId) : IDomainEvent, ICommand;
 
     public class Slot
     {

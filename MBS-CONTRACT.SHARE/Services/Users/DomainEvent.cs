@@ -9,6 +9,7 @@ public static class DomainEvent
 
     public class Slot
     {
+        public Guid Id { get; set; }
         public Guid? MentorId { get; set; }
         public TimeOnly StartTime { get; set; }
         public TimeOnly EndTime { get; set; }
@@ -17,7 +18,5 @@ public static class DomainEvent
         public string? Note { get; set; }
         public short? Month { get; set; }
         public bool IsBook { get; set; }
-        public DateTimeOffset CreatedOnUtc { get; set; }
-        public DateTimeOffset? ModifiedOnUtc { get; set; }
     }
 }

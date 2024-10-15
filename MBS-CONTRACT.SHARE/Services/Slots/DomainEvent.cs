@@ -5,7 +5,7 @@ namespace MBS_CONTRACT.SHARE.Services.Slots;
 public static class DomainEvent
 {
    //list of slot created
-   public record SlotsCreated(Guid IdEvent, List<Slot> Slots,Guid MentorId) : IDomainEvent, ICommand;
+   public record SlotsCreated(Guid IdEvent, IEnumerable<Slot> Slots,Guid MentorId) : IDomainEvent, ICommand;
 
    public class Slot
    {

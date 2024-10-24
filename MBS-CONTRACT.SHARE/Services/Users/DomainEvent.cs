@@ -10,6 +10,7 @@ public static class DomainEvent
     public class Slot
     {
         public Guid Id { get; set; }
+        public Guid SlotId { get; set; }
         public Guid? MentorId { get; set; }
         public TimeOnly StartTime { get; set; }
         public TimeOnly EndTime { get; set; }

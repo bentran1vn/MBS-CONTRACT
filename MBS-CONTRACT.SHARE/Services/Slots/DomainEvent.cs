@@ -7,6 +7,8 @@ public static class DomainEvent
     public record SlotsCreated(Guid IdEvent, IEnumerable<Slot> Slots) : IDomainEvent, ICommand;
 
     public record ChangeSlotStatusInToBooked(Guid IdEvent, Guid SlotId) : IDomainEvent, ICommand;
+    
+    public record SlotUpdated(Guid IdEvent, Slot Slot) : IDomainEvent, ICommand;
 
     public class Slot
     {

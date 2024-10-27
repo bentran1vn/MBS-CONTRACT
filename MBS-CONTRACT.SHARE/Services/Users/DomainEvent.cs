@@ -19,5 +19,6 @@ public static class DomainEvent
         public string? Note { get; set; }
         public short? Month { get; set; }
         public bool IsBook { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

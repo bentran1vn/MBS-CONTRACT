@@ -7,7 +7,7 @@ public static class DomainEvent
     public record SlotsCreated(Guid IdEvent, IEnumerable<Slot> Slots) : IDomainEvent, ICommand;
 
     public record ChangeSlotStatusInToBooked(Guid IdEvent, Guid SlotId) : IDomainEvent, ICommand;
-    
+
     public record SlotUpdated(Guid IdEvent, Slot Slot) : IDomainEvent, ICommand;
 
     public class Slot
@@ -21,6 +21,7 @@ public static class DomainEvent
         public string? Note { get; set; }
         public short? Month { get; set; }
         public bool IsBook { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTimeOffset CreatedOnUtc { get; set; }
         public DateTimeOffset? ModifiedOnUtc { get; set; }
     }

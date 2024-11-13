@@ -66,6 +66,22 @@ This system architecture and tech stack ensure that the Mentor Booking System (M
 - **Reverse Proxy Repository**: [MBS-REVERSE_PROXY](https://github.com/bentran1vn/MBS-REVERSE_PROXY)
 - **MBS Library Repository**: [MBS-CONTRACT](https://github.com/bentran1vn/MBS-CONTRACT)
 
+## 6. Contributors
+
+We would like to extend our heartfelt thanks to all the members who contributed to the **Mentor Booking System (MBS)** project. Your hard work and dedication have been invaluable in bringing this project to life!
+
+| Name | GitHub Username | Role |
+|------|-----------------|------|
+| Tran Dinh Thien Tan | [bentran1vn](https://github.com/bentran1vn) | Project Lead, FullStack Developer |
+| Pham Phuc Nghi | [PhucNghi176](https://github.com/PhucNghi176) | Backend Develper |
+| Do Tran Lam | [lama-try-code](https://github.com/lama-try-code) | Mobile Developer |
+| Do Thanh Son | [doson2002](https://github.com/doson2002) | Mobile Developer |
+
+We truly appreciate all your contributions and hard work in making this project successful!
+
+#### © 2024 bentran1vn.
+
+
 
 
 
